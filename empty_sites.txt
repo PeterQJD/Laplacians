@@ -1,0 +1,128 @@
+
+######################################################################
+LABEL: {a,b,c}
+DATE: 2026-02-02 12:19:17
+GRAPH STRUCTURE: 4 vertices, edges: [(0, 1), (1, 2), (0, 3), (1, 3), (2, 3)]
+STALK DIMENSIONS: Vertices=[1, 1, 1, 3], Edges=[0, 0, 1, 1, 1]
+
+--- RESTRICTION MAPS ---
+Map V0 -> E0:
+[]
+Map V1 -> E0:
+[]
+Map V1 -> E1:
+[]
+Map V2 -> E1:
+[]
+Map V0 -> E2:
+[[1.]]
+Map V3 -> E2:
+[[-1.  0.  0.]]
+Map V1 -> E3:
+[[1.]]
+Map V3 -> E3:
+[[ 0. -1.  0.]]
+Map V2 -> E4:
+[[1.]]
+Map V3 -> E4:
+[[ 0.  0. -1.]]
+
+--- RESULTS ---
+SPECTRAL ENERGY (Σλ²): 12.0
+DIM OF GLOBAL SECTIONS (H0): 3
+SPECTRUM: [0. 0. 0. 2. 2. 2.]
+
+LAPLACIAN MATRIX:
+[[1. 0. 0. 1. 0. 0.]
+ [0. 1. 0. 0. 1. 0.]
+ [0. 0. 1. 0. 0. 1.]
+ [1. 0. 0. 1. 0. 0.]
+ [0. 1. 0. 0. 1. 0.]
+ [0. 0. 1. 0. 0. 1.]]
+
+BASIS FOR GLOBAL SECTIONS (NULL SPACE):
+[[ 0.        0.       -0.707107]
+ [-0.       -0.707107  0.      ]
+ [ 0.707107  0.        0.      ]
+ [ 0.        0.        0.707107]
+ [-0.        0.707107  0.      ]
+ [-0.707107  0.        0.      ]]
+######################################################################
+
+######################################################################
+LABEL: {a,empty,b}
+DATE: 2026-02-02 12:24:30
+GRAPH STRUCTURE: 4 vertices, edges: [(0, 1), (1, 2), (0, 3), (1, 3), (2, 3)]
+STALK DIMENSIONS: Vertices=[1, 0, 1, 2], Edges=[0, 0, 1, 0, 1]
+
+--- RESTRICTION MAPS ---
+Map V0 -> E0:
+[]
+Map V1 -> E0:
+[]
+Map V1 -> E1:
+[]
+Map V2 -> E1:
+[]
+Map V0 -> E2:
+[[1.]]
+Map V3 -> E2:
+[[-1.  0.]]
+Map V1 -> E3:
+[]
+Map V3 -> E3:
+[]
+Map V2 -> E4:
+[[1.]]
+Map V3 -> E4:
+[[ 0. -1.]]
+
+--- RESULTS ---
+SPECTRAL ENERGY (Σλ²): 8.0
+DIM OF GLOBAL SECTIONS (H0): 2
+SPECTRUM: [0. 0. 2. 2.]
+
+LAPLACIAN MATRIX:
+[[1. 0. 1. 0.]
+ [0. 1. 0. 1.]
+ [1. 0. 1. 0.]
+ [0. 1. 0. 1.]]
+
+BASIS FOR GLOBAL SECTIONS (NULL SPACE):
+[[-0.707107  0.      ]
+ [ 0.       -0.707107]
+ [ 0.707107  0.      ]
+ [ 0.        0.707107]]
+######################################################################
+
+######################################################################
+LABEL: {a,b,c} without gamma
+DATE: 2026-02-02 12:25:46
+GRAPH STRUCTURE: 3 vertices, edges: [(0, 1), (1, 2)]
+STALK DIMENSIONS: Vertices=[1, 1, 1], Edges=[0, 0]
+
+--- RESTRICTION MAPS ---
+Map V0 -> E0:
+[]
+Map V1 -> E0:
+[]
+Map V1 -> E1:
+[]
+Map V2 -> E1:
+[]
+
+--- RESULTS ---
+SPECTRAL ENERGY (Σλ²): 0.0
+DIM OF GLOBAL SECTIONS (H0): 3
+SPECTRUM: [0. 0. 0.]
+
+LAPLACIAN MATRIX:
+[[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]]
+
+BASIS FOR GLOBAL SECTIONS (NULL SPACE):
+[[1. 0. 0.]
+ [0. 1. 0.]
+ [0. 0. 1.]]
+######################################################################
