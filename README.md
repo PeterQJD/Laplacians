@@ -1,0 +1,3 @@
+# Discrete Sheaf Laplacian Calculator
+
+This Python script computes the **Graph Sheaf Laplacian** and its spectral properties for a sheaf if finite dimensional vector spaces on a simple graph (of up to 6 vertices). Vertices are labelled ``0, 1, 2, ..., 5`` and edges are labelled ``a b``. Vertex ``a`` in the edge ``a b`` is designated as being positive for the construction of the coboundary map if ``a < b``.
